@@ -1,5 +1,8 @@
 # 记账小助手
 
+[![E2E](https://github.com/SilentEcho7/ledger/actions/workflows/e2e.yml/badge.svg)](https://github.com/SilentEcho7/ledger/actions/workflows/e2e.yml)
+[![Live Demo](https://img.shields.io/badge/demo-online-4f46e5)](https://silentecho7.github.io/ledger/)
+
 一个单文件、零依赖的本地记账工具，配一套 62 条用例的 Playwright 端到端测试。
 
 > 所有数据存在浏览器 `localStorage`，不联网、不上传、没有后端。
