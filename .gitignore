@@ -1,0 +1,11 @@
+node_modules/
+test-results/
+playwright-report/
+blob-report/
+.DS_Store
+*.log
+.vscode/
+
+# 个人材料，不随开源项目一起发布
+resume.html
+简历-*.pdf

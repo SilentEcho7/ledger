@@ -1,0 +1,18 @@
+{
+  "name": "ledger-mini",
+  "version": "1.0.0",
+  "private": true,
+  "description": "单文件、零依赖的记账工具，附一套 Playwright 端到端测试",
+  "scripts": {
+    "serve": "python3 -m http.server 4173",
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "keywords": ["ledger", "playwright", "e2e"],
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.65.0"
+  }
+}
