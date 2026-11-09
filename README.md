@@ -4,7 +4,7 @@
 
 > 所有数据存在浏览器 `localStorage`，不联网、不上传、没有后端。
 
-**在线地址**：`https://<你的用户名>.github.io/ledger/`（部署后替换）
+**在线地址**：<https://silentecho7.github.io/ledger/>　（已部署，直接可访问）
 
 ---
 
@@ -72,7 +72,7 @@ git init
 git add .
 git commit -m "feat: 记账小助手 v1.0，含 62 条 Playwright 用例"
 git branch -M main
-git remote add origin https://github.com/<你的用户名>/ledger.git
+git remote add origin https://github.com/SilentEcho7/ledger.git
 git push -u origin main
 ```
 
@@ -90,7 +90,7 @@ gh repo create ledger --public --source=. --remote=origin --push
 - Branch 选 `main`，目录选 `/ (root)`
 - 点 **Save**
 
-等 1～2 分钟，地址就是 `https://<你的用户名>.github.io/ledger/`。
+等 1～2 分钟，地址就是 `https://silentecho7.github.io/ledger/`。
 
 ### 3. 验证
 
